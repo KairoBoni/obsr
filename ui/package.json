@@ -1,0 +1,51 @@
+{
+  "name": "basicapp",
+  "version": "1.0.0",
+  "description": "\"basic boilerplate for a flask-react application\"",
+  "repository": "https://github.com/vicksbr/basicapp.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.18.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "acorn": "^6.0.4",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "material-ui": "^0.20.2",
+    "prettier": "^1.16.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-jss": "^8.6.1",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.0",
+    "redux-axios-middleware": "^4.0.0",
+    "theme": "^0.1.0"
+  }
+}
