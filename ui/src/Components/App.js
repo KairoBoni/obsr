@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import Dashbord from "./Dashbord/Dashbord"
-
+import Map from "./Map/Map";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Dashbord />
+        <Map />
       </div>
     );
   }

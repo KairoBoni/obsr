@@ -1,4 +1,5 @@
 from mongoengine import connect
+from .notices import Notices
 from server.config import config
 
 
